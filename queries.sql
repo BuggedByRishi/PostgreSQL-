@@ -1,6 +1,7 @@
-CREATE TABLE majdoor (
-    id SERIAL PRIMARY KEY,
-    name VARCHAR(100) NOT NULL,
-    department VARCHAR(50) NOT NULL,
-    salary NUMERIC(10, 2) NOT NULL
-);
+INSERT INTO majdoor (name, department, salary)
+VALUES
+('Suresh Patil', 'Electrician', 30000.00),
+('Amit Sharma', 'Plumbing', 28000.75),
+('Rahul Verma', 'Construction', 26000.00),
+('Vikram Singh', 'Carpentry', 32000.25),
+('Manoj Yadav', 'Electrician', 29000.50);
