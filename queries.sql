@@ -1,3 +1,3 @@
-SELECT department, count(*) AS total_employees
+SELECT department, Avg(salary) AS average_salary
 FROM employees
 GROUP BY department;
