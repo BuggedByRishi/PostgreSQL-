@@ -1,6 +1,5 @@
 SELECT
     first_name,
-    salary,
-    salary * 12 AS annual_salary
+    salary / 30 AS daily_salary
 FROM
     employees;
