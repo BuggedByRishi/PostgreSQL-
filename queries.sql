@@ -1,3 +1,3 @@
-SELECT first_name, salary
+SELECT first_name,hire_date, salary
 FROM employees
-ORDER BY salary DESC;
+ORDER BY hire_date ASC, salary DESC;
