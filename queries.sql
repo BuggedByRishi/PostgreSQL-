@@ -1,4 +1,4 @@
-SELECT e.first_name, e.last_name, d.dept_name
+SELECT e.id, e.first_name, d.department_name
 FROM employees e
 FULL OUTER JOIN departments d
-ON e.dept_id = d.dept_id
+ON e.id = d.id;
