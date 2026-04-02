@@ -1,5 +1,5 @@
 SELECT first_name, id
 FROM employees
-WHERE id IN (1);
+WHERE id = ANY(ARRAY[1,2,3]);
 
-/* IN is used to specify the entries in the specific constraint passed  */
+/* using ANY operator */
