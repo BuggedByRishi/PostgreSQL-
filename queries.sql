@@ -1,2 +1,2 @@
 SELECT * FROM employees
-WHERE salary >= 70000;
+WHERE hire_date = '2023-01-15';
