@@ -1,2 +1,4 @@
-SELECT * FROM employees
-WHERE salary > 80000 OR salary < 65000; 
+SELECT first_name, salary
+FROM employees
+ORDER BY salary DESC
+LIMIT 2;
