@@ -1,5 +1,3 @@
-SELECT
-    first_name,
-    salary / 30 AS daily_salary
-FROM
-    employees;
+SELECT first_name, salary
+FROM employees
+ORDER BY salary DESC;
