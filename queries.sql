@@ -1,4 +1,4 @@
-SELECT first_name, hire_date, salary
-FROM employees
-WHERE salary BETWEEN 50000 AND 80000
-  AND hire_date BETWEEN DATE '2000-01-01' AND DATE '2023-05-12';
+SELECT e.first_name, e.last_name, d.dept_name
+FROM employees e
+INNER JOIN departments d
+ON e.dept_id = d.dept_id;
