@@ -1,3 +1,4 @@
-SELECT department, sum(salary) AS total_salary
-FROM employees
-GROUP BY department;
+SELECT
+    first_name || ' '  || last_name AS full_name
+FROM
+    employees
